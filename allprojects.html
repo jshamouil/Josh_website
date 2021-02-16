@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Joshua's Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+    <link href="assets/index.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="allprojects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="skills.html">Skills</a>
+                </li>							
+                <li class="nav-item">
+                    <a class="nav-link" href="professional_experience.html">Professional Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main role="main">
+
+        <div class="jumbotron othertabs-top">
+            <div class="container">
+                <h1 class="display-3 title-name2">Data Science Projects</h1>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <a href="project1.html"><img class="card-img-top" src="images/icons/ma.jpg"></a>
+                            <h5 class="card-title"><a class="link" href="project1.html">Moving Average Stock Trading Strategy &raquo;</a></h5>
+                            <p class="card-text">
+								Using python I developed a simple moving average trading strategy that trades the SPY. The number of days the moving 
+								average uses is determined by a back testing strategy that determines the most optimal number of days by looking at 
+								the historical price trends. I also developed seperate classes for backtesting and executing the strategy. I used Alpaca 
+								to get the price data and make the trades.
+                            </p>
+                            <a href="https://github.com/jshamouil/Simple-Moving-Average-Trading-Strategy" target="_blank"
+                                class="btn btn-primary blue-button">Git Hub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <a href="project2.html"><img class="card-img-top" src="images/icons/poke.jpg"></a>
+                            <h5 class="card-title"><a class="link" href="project2.html">Video Game Cluster Analysis &raquo;</a></h5>
+                            <p class="card-text">
+								In this Notebook, I analyzed which Pokemon are the strongest and weakest based only on the type
+								the Pokemon has been assigned. By using K-Means clustering I also organized Pokemon into clusters which grouped 
+								alike Pokemon by thier type combinations. I also explored several different methods to 
+								find the optimal number of clusters. This would allowed anyone who is organizing starting Pokemon so 
+								that the trainer will have a strong attack and defence no matter what Pokemon the opponent plays.
+                            </p>
+                            <a href="https://github.com/jshamouil/Pokemon_Cluster_analysis" target="_blank"
+                                class="btn btn-primary blue-button">Git Hub</a>
+                            <a href="https://www.kaggle.com/joshuashamouil/pokemon-analysis" target="_blank"
+                                class="btn btn-primary green-button">Kaggle</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <a href="project3.html"><img class="card-img-top" src="images/icons/bank.jpg"></a>
+                            <h5 class="card-title"><a class="link" href="project3.html">Bank Marketing Classification Model</a></h5>
+                            <p class="card-text">
+								Marketing campaigns are characterized by focusing on the customer needs and their overall satisfaction. 
+								Nevertheless, there are different variables that determine whether a marketing campaign will be successful
+								or not. There are certain variables that we need to take into consideration when making a marketing campaign.
+								The goal of this notebook is to use the data to develop a strong model in order to predict which people the 
+								bank should market to for their marketing campain to get people to sign up for a term deposit.
+							</p>
+                            <a href="https://www.kaggle.com/joshuashamouil/bank-marketing-with-classification-modeling" target="_blank"
+                                class="btn btn-primary blue-button">Kaggle</a>
+                        </div>
+                    </div>
+                </div>
+ 
+            </div>
+
+            <hr>
+
+        </div> <!-- /container -->
+
+    </main>
+
+    <footer class="container">
+        <br>
+        <br>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

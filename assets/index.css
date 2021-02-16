@@ -1,0 +1,259 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+
+.homepage-top {
+  text-align: center;
+  padding: 2rem 2rem;
+}
+
+.othertabs-top {
+  text-align: center;
+  padding: 2rem 2rem;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #354373;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-menu {
+  margin-top: 0px;
+}
+
+.box-title {
+  font-size: 28px;
+  color: #5891a6;
+}
+
+.headshot {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 150px;
+}
+
+.title-name {
+  font-size: 100px;
+  font-family: 'Times New Roman', cursive;
+  font-weight: 500;
+}
+
+.title-name2 {
+  font-size: 60px;
+}
+
+.title-description {
+  font-size: 30px;
+  font-style: italic;
+}
+
+.title-description2 {
+  font-size: 26px;
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.navbar {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.nav-item {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.navbar-brand {
+  background-color: #5891a6;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.navbar-brand:hover {
+  background-color: #578af7;
+}
+
+.blue-button {
+  background-color: #5891a6;
+  border-color: #5891a6;
+}
+
+.blue-button:hover {
+  background-color: #578af7;
+  border-color: #578af7;
+}
+
+.grey-button {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  display: inline-block !important;
+}
+
+.grey-button:hover {
+  background-color: #578af7;
+  border-color: #578af7;
+}
+
+.green-button {
+  background-color: #58a698;
+  border-color: #58a698;
+  display: inline-block !important;
+}
+
+.green-button:hover {
+  background-color: #578af7;
+  border-color: #578af7;
+}
+
+.link {
+  color: #5891a6;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.skill-header {
+  font-size: 20px;
+  color: #5891a6;
+}
+
+.skill-list {
+  margin-bottom: 15px;
+}
+
+.tech-header {
+  font-size: 18px;
+  color: #5891a6;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+.card-title {
+  font-size: 16px;
+  margin: 6px 0 6px 0;
+}
+
+.card-text {
+  font-size: 13px;
+}
+
+.about-text {
+  font-size: 14px;
+}
+
+iframe {
+  border-width: 0px;
+}
+
+.code {
+  width: 100%;
+  height: 100%;
+}
+
+.code2 {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.map {
+  border: 5px white solid;
+}
+
+.sample-pics {
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+.tab-description{
+  margin: 15px;
+}
+
+.random-text {
+  text-align: center;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+#more1, #more2, #more3, #more4, #more5, #more6 {
+  display: none;
+}
+
+.rec-header {
+  color: #5891a6;
+  margin: 0;
+}
+
+.rec-align {
+  text-align: center;
+}
+
+/* makes title name responsive for small screens */
+@media (max-width: 992px) {
+  .title-name {
+    font-size: 90px;
+  }
+}
+
+/* makes title name responsive for x-small screens */
+@media (max-width: 768px) {
+  .title-name {
+    font-size: 60px;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu{
+        display: block;
+    }
+    .dropdown-menu{
+        margin-top: 0;
+    }
+    .dropdown-toggle{
+        margin-bottom: 2px;
+    }
+    .navbar .dropdown-toggle, .nav-tabs .dropdown-toggle{
+        margin-bottom: 0;
+    }
+}
